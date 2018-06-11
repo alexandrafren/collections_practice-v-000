@@ -49,3 +49,11 @@ def sum_array(array)
     sum + n
   end
 end
+
+def add_s(array)
+  array.each do |word|
+    if word[1]
+      return word
+    else
+      word << "s"
+end
