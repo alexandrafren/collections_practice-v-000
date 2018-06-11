@@ -29,13 +29,11 @@ end
 end
 
 def reverse_array(array)
-  array.reverse
+  array.reverse!
 end
 
 def kesha_maker(array)
   array.each do |word|
-    word.split("")
     word[2] = "$"
-    word.join("")
   end
 end
