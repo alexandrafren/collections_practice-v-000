@@ -20,4 +20,5 @@ def swap_elements(array)
   new_array = array
   array[1] = new_array[2]
   array[2] = new_array[1]
+  return array
 end
