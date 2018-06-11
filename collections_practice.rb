@@ -24,4 +24,5 @@ array.sort do |a,b|
     1
   else
     0
+  end
 end
