@@ -17,8 +17,11 @@ end
 end
 
 def swap_elements(array)
-  new_array = array
-  array[1] = new_array[2]
-  array[2] = new_array[1]
-  return array
+array.sort do |a,b|
+  if a == array[0]
+    0
+  elsif a == array[1] && b = array[2]
+    1
+  else
+    0
 end
